@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  background-color: #333;
+  color: #fff;
+  
+}
+
+body {
+  font-family: "poppins";
+}
+
+button,
+input {
+  font-family: "poppins";
+}
+
+.App {
+  text-align: center;
+}
+.taskNumber{
+background-color: #333;
+color: #999;
+border: 1px solid #999;
+border-radius: 50%;
+width: 26px;
+height: 26px;
+display: flex;
+text-align: center;
+font-size: 14px;
+margin-right: 8px;
+align-items: center;
+justify-content: center;
+
+} .taskBg div{
+display: flex;
+align-items: center;
+}
+.taskBg{
+background-color: #555;
+border-radius: 6px;
+margin-bottom: 20px;
+padding: 10px 140px 10px 15px;
+text-align: left;
+font-size: 22px;
+position: relative;
+}
+.taskBg .done .taskText{
+  text-decoration: line-through;
+  opacity: 0.3;
+  
+
+}
+#inside,.iconsWrap,span ,.taskText{
+  background-color: #555;
+}
+.taskBg .iconsWrap{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  display: inline-block;
+  width: auto;
+}
+ .taskBg .iconsWrap span{
+  color: #00ff89;
+  margin: 0 10px 0 10px;
+  cursor: pointer;
+  display: inline-block;
+  width: auto;
+}
+.taskText,h1{
+  color: #fff;
+}
+
+svg , path{
+ 
+  background:transparent ;
+  color: #00ff89;
+}
+ path:hover{
+  color: yellow;
+}
+.taskBg   .taskText{
+flex: 1;
+}
+.nr-20{
+  margin-right: 20px;
+}
